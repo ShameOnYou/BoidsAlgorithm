@@ -1,0 +1,83 @@
+textarea:focus, input:focus{
+    outline: none;
+}
+
+body {
+    margin: 0;
+    background: #000000;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menuContainer{
+
+    background-color: rgba(54,57,63,0.5);
+    color: white;
+    display: inline-block;
+    font-size: 1vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#menuContainer h2{
+    pointer-events: none;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(50,53,59);
+}
+
+#slidecontainer{
+    padding: 0 2em 2em 2em;
+}
+
+
+#slidecontainer ul{
+    padding: 0;
+    margin: 0;
+}
+
+#slidecontainer ul li p{
+    margin-bottom: 5px;
+}
+#slidecontainer ul li button,
+#slidecontainer ul li input {
+    font-size: 1vw;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.menuButton{
+    border: none;
+    color: #4f4f4f;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1500px) {
+    #slidecontainer{
+        font-size: 1vw;
+    }
+}
+
+@media screen and (min-width: 20px) {
+    #menuTitle h2{
+        font-size: 4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
